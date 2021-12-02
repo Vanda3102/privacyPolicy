@@ -22,7 +22,7 @@
         }
 
         document.title = (soft_name ? soft_name + "--" : "") + "隐私政策";
-        var api = (app && app.privacy) || "/wap_pay/privacy/hudun/zh/privacy/default.html";
+        var api = (app && app.privacy) || "https://api.shoujihuifu.com/wap_pay/privacy/hudun/zh/privacy/default.html";
         if (api) {
         	var xhr = new XMLHttpRequest();
         	xhr.open("get", api, false);
