@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-		<script src="https://api.shoujihuifu.com/wap_pay/privacy/hudun/zh/init.js"></script>
+		<script src="https://h5.51xiasheji.com/wap_pay/privacy/hudun/zh/init.js"></script>
     <script>
-       
+     
         var sdk = app ? app.id : "";
         var body = "<body>";
         var company_name = company.fullname;
@@ -22,7 +22,7 @@
         }
 
         document.title = (soft_name ? soft_name + "--" : "") + "隐私政策";
-        var api = (app && app.privacy) || "https://api.shoujihuifu.com/wap_pay/privacy/hudun/zh/privacy/default.html";
+        var api = (app && app.privacy) || "https://h5.51xiasheji.com/wap_pay/privacy/hudun/zh/privacy/default.html";
         if (api) {
         	var xhr = new XMLHttpRequest();
         	xhr.open("get", api, false);
